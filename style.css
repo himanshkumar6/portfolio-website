@@ -229,7 +229,8 @@ span {
 }
 
 .project-img:hover {
-  transform: scale(1.05); 
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color);
 }
 
 @media (max-width: 768px) {

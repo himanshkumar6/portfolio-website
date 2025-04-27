@@ -233,6 +233,13 @@ span {
   border-radius: 10px;
 }
 
+.tags {
+  font-size: 5rem;
+  text-align: center;
+  margin: 5rem 0;
+  color: azure;
+}
+
 .project-img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color);

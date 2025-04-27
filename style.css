@@ -208,6 +208,38 @@ span {
   color: black;
 }
 
+.project-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns for larger screens */
+  gap: 20px;
+}
+
+.project-item {
+  display: block;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  aspect-ratio: 16 / 9; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.project-img:hover {
+  transform: scale(1.05); 
+}
+
+@media (max-width: 768px) {
+  .project-images {
+    grid-template-columns: 1fr; 
+  }
+}
+
+
+
+
+
 .text-animation {
   font-size: 34px;
   font-weight: 600;

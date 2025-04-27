@@ -218,7 +218,11 @@ span {
 .project-item {
   display: block;
 }
-
+.project-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
 .project-img {
   width: 100%;
   height: auto;
